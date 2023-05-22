@@ -24,5 +24,19 @@ namespace Sugoroku
         {
             InitializeComponent();
         }
+        private async void Yes_Click(object sender, RoutedEventArgs e)
+        {
+            StartText.Text = "Game Start!";
+            await Task.Delay(1000);
+            Yes.Visibility = Visibility.Collapsed;
+            No.Visibility = Visibility.Collapsed;
+            StartText.Visibility = Visibility.Collapsed;
+
+        }
+        private void No_Click(object sender, RoutedEventArgs e)
+        {
+            Environment.Exit(0); //アプリケーションの終了
+        }
+
     }
 }
