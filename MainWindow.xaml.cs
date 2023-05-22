@@ -23,15 +23,17 @@ namespace Sugoroku
         public MainWindow()
         {
             InitializeComponent();
+
+
         }
-        private async void Yes_Click(object sender, RoutedEventArgs e)
+       
+        private async void Yes_Click(object sender, RoutedEventArgs e) 
         {
             StartText.Text = "Game Start!";
             await Task.Delay(1000);
             Yes.Visibility = Visibility.Collapsed;
             No.Visibility = Visibility.Collapsed;
             StartText.Visibility = Visibility.Collapsed;
-
         }
         private void No_Click(object sender, RoutedEventArgs e)
         {

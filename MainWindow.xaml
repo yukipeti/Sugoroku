@@ -10,45 +10,49 @@
         <Button Content="Yes" FontSize="20" Margin="250,366,0,0" x:Name="Yes" Click="Yes_Click" Height="52" VerticalAlignment="Top" Width="100" HorizontalAlignment="Left"/>
         <Button Content="No" FontSize="20" Margin="550,366,0,0" x:Name="No" Click="No_Click" Height="52" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top"/>
 
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,155,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,155,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="155,155,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="210,155,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="265,155,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="320,155,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="375,155,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,155,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="485,155,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="540,155,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="595,155,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="650,155,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="705,155,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="760,155,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="815,155,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="815,210,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="815,265,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="815,320,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="815,375,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="815,430,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="815,485,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="760,485,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="705,485,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="650,485,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="595,485,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="540,485,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="485,485,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,485,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="375,485,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="320,485,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="265,485,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="210,485,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="155,485,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,485,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,485,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,430,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,375,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,320,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,265,0,0"/>
-        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,210,0,0"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,155,0,0" x:Name="Space1"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,155,0,0" x:Name="Space2"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="155,155,0,0" x:Name="Space3"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="210,155,0,0" x:Name="Space4"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="265,155,0,0" x:Name="Space5"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="320,155,0,0" x:Name="Space6"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="375,155,0,0" x:Name="Space7"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,155,0,0" x:Name="Space8"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="485,155,0,0" x:Name="Space9"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="540,155,0,0" x:Name="Space10"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="595,155,0,0" x:Name="Space11"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="650,155,0,0" x:Name="Space12"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="705,155,0,0" x:Name="Space13"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="760,155,0,0" x:Name="Space14"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="815,155,0,0" x:Name="Space15"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="815,210,0,0" x:Name="Space16"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="815,265,0,0" x:Name="Space17"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="815,320,0,0" x:Name="Space18"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="815,375,0,0" x:Name="Space19"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="815,430,0,0" x:Name="Space20"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="815,485,0,0" x:Name="Space21"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="760,485,0,0" x:Name="Space22"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="705,485,0,0" x:Name="Space23"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="650,485,0,0" x:Name="Space24"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="595,485,0,0" x:Name="Space25"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="540,485,0,0" x:Name="Space26"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="485,485,0,0" x:Name="Space27"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="430,485,0,0" x:Name="Space28"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="375,485,0,0" x:Name="Space29"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="320,485,0,0" x:Name="Space30"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="265,485,0,0" x:Name="Space31"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="210,485,0,0" x:Name="Space32"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="155,485,0,0" x:Name="Space33"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,485,0,0" x:Name="Space34"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,485,0,0" x:Name="Space35"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,430,0,0" x:Name="Space36"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,375,0,0" x:Name="Space37"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,320,0,0" x:Name="Space38"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,265,0,0" x:Name="Space39"/>
+        <Rectangle Height="50" Stroke="Black" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,210,0,0" x:Name="Space40"/>
+        
+        <TextBlock TextWrapping="Wrap" Text="Playing 1P" FontSize="20" Height="40" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="Player1" Visibility="Hidden"/>
+        <TextBlock TextWrapping="Wrap" Text="Playing 2P" FontSize="20" Height="40" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="Player2" Visibility="Hidden"/>
+
     </Grid>
 </Window>
